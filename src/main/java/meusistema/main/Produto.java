@@ -1,7 +1,6 @@
 package meusistema.main;
 
 import java.math.BigDecimal;
-import java.time.LocalDateTime;
 
 public class Produto {
 	
@@ -11,7 +10,7 @@ public class Produto {
 	
 	private BigDecimal valor;
 	
-	private LocalDateTime dataVencimanto;
+	private String dataVencimanto;
 
 	public Long getId() {
 		return id;
@@ -37,11 +36,11 @@ public class Produto {
 		this.valor = valor;
 	}
 
-	public LocalDateTime getDataVencimanto() {
+	public String getDataVencimanto() {
 		return dataVencimanto;
 	}
 
-	public void setDataVencimanto(LocalDateTime dataVencimanto) {
+	public void setDataVencimanto(String dataVencimanto) {
 		this.dataVencimanto = dataVencimanto;
 	}
 	

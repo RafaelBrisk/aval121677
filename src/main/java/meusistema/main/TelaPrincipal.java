@@ -83,7 +83,7 @@ public class TelaPrincipal extends JFrame {
 	}
 
 	protected void novoProduto() {
-		JPanel cadastro = new Cadastro();
+		JPanel cadastro = new CadastroExt();
 		
 		this.tabbedPane.addTab("Produto", cadastro);
 	}
